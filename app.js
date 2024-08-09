@@ -3,8 +3,11 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const userRoutes = require('./routes/user');
+const productRoutes = require('./routes/product');
 
 app.use(bodyParser.json());
+
+app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
 
 // Run Server
