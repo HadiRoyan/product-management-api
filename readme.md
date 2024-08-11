@@ -7,7 +7,7 @@ This project is a simple Node.js-based API that manages users and products. Avai
 1. Clone project  
     ```
     git clone https://github.com/HadiRoyan/product-management-api.git
-    cd nodejs-user-product-management   
+    cd product-management-api  
     ```
 
 2. Install Dependencies
